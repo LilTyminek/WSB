@@ -1,2 +1,2 @@
 # WSB
-reposityory for studies
+repository for studies
