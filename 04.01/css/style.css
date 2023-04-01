@@ -1,0 +1,10 @@
+table,tr,th,td{
+    border:1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    width: 100px;
+    display: block;
+}

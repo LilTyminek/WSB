@@ -7,7 +7,7 @@ $sql = "DELETE FROM users WHERE `users`.`id` = $_GET[userId]";
 //$sql = "DELETE FROM users WHERE `users`.`firstName` = 'x'";
 $conn->query($sql);
 if ($conn->affected_rows == 0){
-	header("location: ../form.php?deleteUserId=0");
+	header("location: ../ind.php?deleteUserId=0");
 }else{
-	header("location: ../form.php?deleteUserId=$_GET[userId]");
+	header("location: ../ind.php?deleteUserId=$_GET[userId]");
 }
